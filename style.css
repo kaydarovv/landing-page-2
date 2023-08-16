@@ -14,10 +14,6 @@ body {
     background-color: #1F2937;
 }
 
-.header {
-    
-}
-
 .header ul {
     list-style: none;
     margin: 0px;
@@ -25,7 +21,7 @@ body {
     display: flex;
     align-items: baseline;
     gap: 24px;
-    padding: 20px;
+    padding: 20px 100px 20px;
 }
 
 .header #logo {
@@ -43,22 +39,51 @@ body {
     color: #E5E7EB;
 }
 
+.hero-box {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 40px;
+}
+
+.hero-box .img {
+    min-height: 200px;
+    width: 400px;
+    flex-basis: 400px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.hero-box .text {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+
 .hero-box .text h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    flex-basis: 400px;
+    margin: 0px;
 }
 
 .hero-box .text p {
     font-size: 18px;
     color: #E5E7EB;
+    flex-basis: 600px;
 }
 
 .hero-box button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
     border-radius: 4px;
+    min-height: 25px;
+    flex-basis: 100px;
 }
 
 .cards-box h1 {
