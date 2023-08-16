@@ -86,17 +86,43 @@ body {
     flex-basis: 100px;
 }
 
+.cards-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 100px;
+    align-items: center;
+}
+
 .cards-box h1 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    margin-bottom: 60px;
+}
+
+.cards-box .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+}
+
+.cards-box .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.cards-box p {
+    text-align: center;
 }
 
 .cards-box .box {
     border: 4px solid #3882F6;
     width: 200px;
     height: 200px;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .quote-box {
